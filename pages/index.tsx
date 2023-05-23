@@ -6,9 +6,10 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 
 
+
 const Home = ({allPostsData}: {
   // 타입을 알려주는 방식
-  allPostData: {
+  allPostsData: {
     date: string
     title: string
     id: string
@@ -42,6 +43,7 @@ const Home = ({allPostsData}: {
     </section>
     </div>
   )
+
 }
 
 export default Home
